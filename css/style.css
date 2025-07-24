@@ -18,10 +18,8 @@ img {
 }
 .description {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 22px;
   font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0%;
+  
 }
 nav ul li,
 .footer-menu ul li {

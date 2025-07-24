@@ -1,7 +1,6 @@
 @media screen and (max-width: 576px) {
   .my-container {
-    max-width: 520px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
   .description {
@@ -10,8 +9,7 @@
 }
 @media screen and (max-width: 610px) {
   .my-container {
-    max-width: 580px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
   .description {
