@@ -2,6 +2,8 @@
 /* Sheared styles */
 body {
   font-family: Inter;
+}
+.bg-primary{
   background-color: #f5f8ff;
 }
 .serif-font {
@@ -19,7 +21,6 @@ img {
 .description {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
-  
 }
 nav ul li,
 .footer-menu ul li {
@@ -79,8 +80,9 @@ nav ul li a,
 }
 .newsletter {
   background-image: url('../assets/news-letter-bg.png');
-  background-color: #07334f66;
+  background-color: rgba(7, 51, 79, 0.4);
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }/* newsletter */

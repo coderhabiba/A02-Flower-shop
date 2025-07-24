@@ -1,18 +1,14 @@
 @media screen and (max-width: 576px) {
   .my-container {
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
   }
-  .description {
-    font-size: 1.14rem;
-  }
+ 
 }
 @media screen and (max-width: 610px) {
   .my-container {
-    width: 90%;
+    width: 92%;
     margin: 0 auto;
   }
-  .description {
-    font-size: 1.14rem;
-  }
+  
 }
