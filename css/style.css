@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   font-family: Inter;
-  background-color: #F5F8FF;
+  background-color: #f5f8ff;
 }
-.serif-font{
+.serif-font {
   font-family: Noto Serif;
 }
 .my-container {
@@ -31,9 +31,8 @@ nav ul li a {
   text-decoration: none;
 } /* Navbar */
 
-
 /* deals area */
-.box-1{
+.box-1 {
   background-image: url('../assets/deal-bloom.png');
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
@@ -42,7 +41,7 @@ nav ul li a {
   background-size: cover;
 }
 
-.box-2{
+.box-2 {
   background-image: url('../assets/deal-ana.png');
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
@@ -51,7 +50,7 @@ nav ul li a {
   background-size: cover;
 }
 
-.box-3{
+.box-3 {
   background-image: url('../assets/deal-zabo.png');
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
@@ -59,3 +58,19 @@ nav ul li a {
   background-position: center;
   background-size: cover;
 }
+
+/* newsletter */
+::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 19px;
+}
+.newsletter{
+  background-image: url('../assets/news-letter-bg.png');
+  background-color: #07334F66;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* newsletter */
