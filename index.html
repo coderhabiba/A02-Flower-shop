@@ -209,7 +209,7 @@
     </ul>
    </div>
 
-   <div class="icons grid grid-cols-4 items-center lg:-mt-48 mt-4 gap-5">
+   <div class="icons grid grid-cols-4 items-center lg:-mt-64 mt-4 gap-5">
     <div><img src="./assets/icon-linkedin.png" alt="linkedin"></div>
     <div><img src="./assets/icon-twitter.png" alt="twitter"></div>
     <div><img src="./assets/icon-facebook.png" alt="facebook"></div>
@@ -217,6 +217,17 @@
    </div>
 
   </footer>
+
+  <script>
+    const buttons = document.getElementsByTagName('button');
+
+      for (let btn of buttons) {
+        btn.addEventListener('click', () => {
+          alert("Item added in cart");
+        });
+      }
+
+  </script>
 </body>
 
 </html>
