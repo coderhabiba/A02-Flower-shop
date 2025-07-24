@@ -86,3 +86,8 @@ nav ul li a,
   background-size: cover;
   background-position: center;
 }/* newsletter */
+
+:focus{
+  border: 0;
+  outline: 0;
+}
