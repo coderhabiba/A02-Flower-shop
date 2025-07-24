@@ -3,11 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <title>Flower Shop</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-  
+  <header class="my-container pt-6 pb-[120px]">
+      <!-- navbar -->
+      <nav class="flex items-center justify-between lg:pb-[120px] pb-7">
+        <div class="w-16 lg:w-auto">
+          <img src="./assets/logo.png" alt="logo">
+        </div>
+        <ul class="flex items-center gap-12">
+          <li class="text-[#252432] font-extrabold hidden lg:block"><a href="">Home</a></li>
+          <li class="text-[#8987A1] hidden lg:block"><a href="">Shop</a></li>
+          <li class="text-[#8987A1] hidden lg:block"><a href="">About us</a></li>
+          <li><a class="flex items-center gap-2 mr-10 lg:mr-0" href="">
+            <img src="./assets/shopping-cart.png" alt="cart">
+            <span class="text-[#000000]">Cart ($56)</span>
+          </a></li>
+        </ul>
+      </nav><!-- end navbar -->
+
+       <!-- banner -->
+       <section class="banner flex flex-col-reverse lg:flex lg:flex-row items-center justify-between">
+         <div class="banner-content">
+          <h1 class="font-serif text-[1.5rem] lg:text-[4.06rem] mt-7 lg:mt-0 font-bold"><span>ALWAYS</span><span class="text-[#E95A08]"> FRESH <br> FLOWERS</span></h1>
+          <p class="description">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion.</p>
+         </div>
+         <div class="banner-img">
+          <img src="./assets/hero-flower.png" alt="banner-img">
+         </div>
+       </section><!-- end banner -->
+
+  </header>
+
+  <main>
+    <section class="plants my-container">
+
+      <div class="plants-content">
+        <h2 class="text-center text-[50px] lg:text-2xl font-bold leading-[68px] font-serif"><span class="text-[#E95A08]">Our</span><span class="">Plants</span></h2>
+        <p class="description text-center mt-4 lg:mb-12 mb-7">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+      </div>
+
+      <div class="plants-cards grid lg:grid-cols-4 grid-cols-2 gap-5">
+
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+        <div class="plants-card text-center">
+          <img class="w-full" src="./assets/sample-flower-image.png" alt="cart-img">
+          <h4 class="font-medium lg:text-[22px] text-base leading-[150%] mt-5">Lily Blossom</h4>
+          <h3 class="lg:text-[22px] font-bold text-base leading-[150%] mt-2 mb-[30px]">$20 USD</h3>
+          <button class="py-4 font-semibold leading-5 bg-[#E95A08] w-full text-white">ADD TO CART</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer></footer>
 </body>
 </html>
